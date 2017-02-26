@@ -1,0 +1,4 @@
+Adapting files- extracting relevant column names- Current: Android to Android
+removing columns containing null values- go select blanks
+Making bins
+CurrentFutureLang Table from StackOverflow

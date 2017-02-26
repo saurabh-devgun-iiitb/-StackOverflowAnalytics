@@ -1,0 +1,57 @@
+> inspect(rules.sorted)
+     lhs                                   rhs                                                                                support confidence     lift
+[1]  {Country=United States,                                                                                                                             
+      Age=35-39,                                                                                                                                         
+      Job.Satisfaction=I love my job}   => {Open.to.new.job.opportunities=I am not interested in other job opportunities} 0.008213985  0.6763006 2.146919
+[2]  {Country=United States,                                                                                                                             
+      Compensation=$100,000 - $120,000,                                                                                                                  
+      Job.Satisfaction=I love my job}   => {Open.to.new.job.opportunities=I am not interested in other job opportunities} 0.009126650  0.6666667 2.116336
+[3]  {Country=United States,                                                                                                                             
+      Compensation=$60,000 - $80,000,                                                                                                                    
+      Job.Satisfaction=I love my job}   => {Open.to.new.job.opportunities=I am not interested in other job opportunities} 0.008986240  0.6632124 2.105371
+[4]  {Age=30-34,                                                                                                                                         
+      Compensation=$60,000 - $80,000,                                                                                                                    
+      Job.Satisfaction=I love my job}   => {Open.to.new.job.opportunities=I am not interested in other job opportunities} 0.007862960  0.6549708 2.079207
+[5]  {Country=United Kingdom,                                                                                                                            
+      Age=25-29,                                                                                                                                         
+      Job.Satisfaction=I love my job}   => {Open.to.new.job.opportunities=I am not interested in other job opportunities} 0.006318450  0.6521739 2.070329
+[6]  {Country=United States,                                                                                                                             
+      Compensation=$120,000 - $140,000,                                                                                                                  
+      Job.Satisfaction=I love my job}   => {Open.to.new.job.opportunities=I am not interested in other job opportunities} 0.006107835  0.6492537 2.061059
+[7]  {Country=United States,                                                                                                                             
+      Age=40-50,                                                                                                                                         
+      Job.Satisfaction=I love my job}   => {Open.to.new.job.opportunities=I am not interested in other job opportunities} 0.008494805  0.6436170 2.043165
+[8]  {Country=United States,                                                                                                                             
+      Compensation=More than $160,000,                                                                                                                   
+      Job.Satisfaction=I love my job}   => {Open.to.new.job.opportunities=I am not interested in other job opportunities} 0.005195170  0.6379310 2.025115
+[9]  {Country=Germany,                                                                                                                                   
+      Job.Satisfaction=I love my job}   => {Open.to.new.job.opportunities=I am not interested in other job opportunities} 0.014953665  0.6283186 1.994600
+[10] {Country=United Kingdom,                                                                                                                            
+      Job.Satisfaction=I love my job}   => {Open.to.new.job.opportunities=I am not interested in other job opportunities} 0.023027240  0.6271511 1.990894
+[11] {Country=United States,                                                                                                                             
+      Age=30-34,                                                                                                                                         
+      Job.Satisfaction=I love my job}   => {Open.to.new.job.opportunities=I am not interested in other job opportunities} 0.011794440  0.6245353 1.982590
+[12] {Compensation=$60,000 - $80,000,                                                                                                                    
+      Job.Satisfaction=I love my job}   => {Open.to.new.job.opportunities=I am not interested in other job opportunities} 0.027309744  0.6224000 1.975811
+[13] {Compensation=$100,000 - $120,000,                                                                                                                  
+      Job.Satisfaction=I love my job}   => {Open.to.new.job.opportunities=I am not interested in other job opportunities} 0.015936535  0.6185286 1.963522
+[14] {Compensation=More than $160,000,                                                                                                                   
+      Job.Satisfaction=I love my job}   => {Open.to.new.job.opportunities=I am not interested in other job opportunities} 0.009056445  0.6172249 1.959383
+[15] {Country=France,                                                                                                                                    
+      Job.Satisfaction=I love my job}   => {Open.to.new.job.opportunities=I am not interested in other job opportunities} 0.005756810  0.6165414 1.957213
+[16] {Age=25-29,                                                                                                                                         
+      Compensation=Rather not say,                                                                                                                       
+      Job.Satisfaction=I love my job}   => {Open.to.new.job.opportunities=I am not interested in other job opportunities} 0.008845830  0.6146341 1.951159
+[17] {Country=United States,                                                                                                                             
+      Job.Satisfaction=I love my job}   => {Open.to.new.job.opportunities=I am not interested in other job opportunities} 0.052513339  0.6111111 1.939975
+[18] {Country=Sweden,                                                                                                                                    
+      Job.Satisfaction=I love my job}   => {Open.to.new.job.opportunities=I am not interested in other job opportunities} 0.005054760  0.6101695 1.936986
+[19] {Compensation=$120,000 - $140,000,                                                                                                                  
+      Job.Satisfaction=I love my job}   => {Open.to.new.job.opportunities=I am not interested in other job opportunities} 0.009618085  0.6008772 1.907487
+[20] {Age=25-29,                                                                                                                                         
+      Compensation=$60,000 - $80,000,                                                                                                                    
+      Job.Satisfaction=I love my job}   => {Open.to.new.job.opportunities=I am not interested in other job opportunities} 0.008003370  0.6000000 1.904702
+      
+      
+
+`

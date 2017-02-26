@@ -1,0 +1,102 @@
+    lhs                                      rhs                                  support confidence     lift
+[1] {Compensation=More than $160,000,                                                                        
+     Industry=Finance / Banking}          => {Exp=11+ years}                  0.005288917  0.8375000 2.835235
+[2] {Country=United States,                                                                                  
+     Compensation=More than $160,000}     => {Exp=11+ years}                  0.013024945  0.8505155 2.879297
+[3] {Exp=Less than 1 year,                                                                                   
+     Country=India,                                                                                          
+     Industry=Software Products}          => {Compensation=Less than $20,000} 0.006630881  0.8155340 3.872258
+[4] {Exp=2 - 5 years,                                                                                        
+     Country=India,                                                                                          
+     Occupation=Full-stack web developer,                                                                    
+     Industry=Software Products}          => {Compensation=Less than $20,000} 0.005525734  0.8139535 3.864754
+     
+[1]  {Country=United States,                                                                                                                             
+      Age=35-39,                                                                                                                                         
+      Job.Satisfaction=I love my job}   => {Open.to.new.job.opportunities=I am not interested in other job opportunities} 0.008213985  0.6763006 2.146919
+[2]  {Country=United States,                                                                                                                             
+      Compensation=$100,000 - $120,000,                                                                                                                  
+      Job.Satisfaction=I love my job}   => {Open.to.new.job.opportunities=I am not interested in other job opportunities} 0.009126650  0.6666667 2.116336
+
+[4]  {Age=30-34,                                                                                                                                         
+      Compensation=$60,000 - $80,000,                                                                                                                    
+      Job.Satisfaction=I love my job}   => {Open.to.new.job.opportunities=I am not interested in other job opportunities} 0.007862960  0.6549708 2.079207
+
+[5]  {Country=United Kingdom,                                                                                                                            
+      Age=25-29,                                                                                                                                         
+      Job.Satisfaction=I love my job}   => {Open.to.new.job.opportunities=I am not interested in other job opportunities} 0.006318450  0.6521739 2.070329
+[18] {Country=Sweden,                                                                                                                                    
+      Job.Satisfaction=I love my job}   => {Open.to.new.job.opportunities=I am not interested in other job opportunities} 0.005054760  0.6101695 1.936986
+      
+    lhs                                      rhs                                  support confidence     lift
+[1] {Country=Spain,                                                                                          
+     Occupation=Full-stack web developer,                                                                    
+     Industry=Software Products}          => {Compensation=$20,000 - $40,000} 0.001736659  0.6285714 3.893762
+[2] {Exp=11+ years,                                                                                          
+     Country=Poland,                                                                                         
+     Industry=Software Products}          => {Compensation=$20,000 - $40,000} 0.001026208  0.6190476 3.834765
+[3] {Exp=6 - 10 years,                                                                                       
+     Country=Spain,                                                                                          
+     Occupation=Full-stack web developer} => {Compensation=$20,000 - $40,000} 0.002131355  0.6136364 3.801245
+
+[2] {Compensation=More than $160,000,                                                                                                  
+     Industry=Consulting,                                                                                                              
+     Job.Satisfaction=I love my job}                      => {Employment.Status=Freelance / Contractor} 0.001301448  0.8000000 7.200000
+
+[3] {Years=11+ years,                                                                                                                  
+     Compensation=More than $160,000,                                                                                                  
+     Industry=Consulting,                                                                                                              
+     Job.Satisfaction=I love my job}                      => {Employment.Status=Freelance / Contractor} 0.001138767  0.7777778 7.000000
+     
+[1] {Occupation=Mobile developer,                                                                                            
+     Industry=Consulting}                                 => {Prgm.Hours=5-10 hours per week} 0.001057426  0.5652174 2.467607
+     
+[1] {Country=Finland,                                                                                                       
+     Occupation=Full-stack web developer,                                                                                   
+     Compensation=$40,000 - $60,000}                      => {Prgm.Hours=1-2 hours per week} 0.001057426  0.6190476 2.954414
+[2] {Years=11+ years,                                                                                                       
+     Occupation=Desktop developer,                                                                                          
+     Compensation=$80,000 - $100,000,                                                                                       
+     Job.Satisfaction=I'm somewhat satisfied with my job} => {Prgm.Hours=1-2 hours per week} 0.001138767  0.5600000 2.672609
+     
+[1] {Country=Netherlands,                                                                                         
+     Employment.Status=Freelance / Contractor} => {Job.Satisfaction=I love my job} 0.002440215  0.7500000 2.191704
+[2] {Years=11+ years,                                                                                             
+     Employment.Status=Other}                  => {Job.Satisfaction=I love my job} 0.003009598  0.7254902 2.120080
+     
+[1] {Years=6 - 10 years,                                                                                       
+     Occupation=Back-end web developer,                                                                        
+     Employment.Status=Employed full-time,                                                                     
+     Prgm.Hours=10-20 hours per week}      => {Job.Satisfaction=I hate my job} 0.0004067025  0.1470588 7.117879
+[2] {Years=6 - 10 years,                                                                                       
+     Occupation=Back-end web developer,                                                                        
+     Prgm.Hours=10-20 hours per week}      => {Job.Satisfaction=I hate my job} 0.0004880429  0.1304348 6.313249
+[3] {Country=United States,                                                                                    
+     Occupation=Student}                   => {Job.Satisfaction=I hate my job} 0.0004067025  0.1190476 5.762092
+[4] {Employment.Status=Employed full-time,                                                                     
+     Industry=Finance / Banking,                                                                               
+     Prgm.Hours=20+ hours per week}        => {Job.Satisfaction=I hate my job} 0.0004067025  0.1162791 5.628090
+     
+[1]  {Years=2 - 5 years,                                                                                          
+      Compensation=Rather not say,                                                                                
+      Employment.Status=Freelance / Contractor} => {Prgm.Hours=20+ hours per week} 0.001301448  0.3636364 4.859289
+[2]  {Occupation=Mobile developer - Android,                                                                      
+      Compensation=Less than $20,000,                                                                             
+      Industry=Software Products,                                                                                 
+      Job.Satisfaction=I love my job}           => {Prgm.Hours=20+ hours per week} 0.001301448  0.3478261 4.648015
+[3]  {Employment.Status=Freelance / Contractor,                                                                   
+      Industry=Gaming}                          => {Prgm.Hours=20+ hours per week} 0.001057426  0.3421053 4.571568
+[4]  {Years=2 - 5 years,                                                                                          
+      Employment.Status=Freelance / Contractor,                                                                   
+      Industry=Web Services,                                                                                      
+      Job.Satisfaction=I love my job}           => {Prgm.Hours=20+ hours per week} 0.001057426  0.3421053 4.571568
+[5]  {Years=2 - 5 years,                                                                                          
+      Occupation=Mobile developer - Android,                                                                      
+      Compensation=Less than $20,000,                                                                             
+      Employment.Status=Employed full-time,                                                                       
+      Industry=Software Products}               => {Prgm.Hours=20+ hours per week} 0.001057426  0.3421053 4.571568
+      
+[1]  {Hadoop=N,                                                        
+      Haskell=N,                                                       
+      Node.js=Y,                                                       
+      Spark=N}         => {JavaScript=Y} 0.09633520  0.9114980 1.987739

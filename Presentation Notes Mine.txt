@@ -1,0 +1,21 @@
+BU- our plan
+	metadata- personal details, personal reviews, professional details.
+		2015 on the field data- checkbox, radiobuttons
+	Humungous data => lotta analysis (heaven!!)
+		subsetting for some data
+	Very interesting- helping recruiters and candidates (job-seekers!)
+Data prep
+	removing column names from CURRENT TECHNOLOGY
+	see the confidence
+Make it intuitive
+	why low support- high cardinality
+	Confidense- Demonstrate conditional probability
+	meaning Scatter plot
+	Data subset
+		didn't remove NULL- cuz make a mess!!
+		How to keep RHS same (decide on your minSup, confidence)
+	Exploration- interesting insights from data
+		Informal- if someone claims he loves his job and is in consulting- you can say with 80% confidence that he is into freelancing. (of course, it's co-occurrence)
+	Data preparation
+		Data preparation- GoTo- select blanks and remove the rows- does that affect results- no, just removes noise.
+		aptly selecting the columns- else it takes a lot of time
